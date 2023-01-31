@@ -14,9 +14,6 @@ def test_binary_search():
 	assert binary_search([1,2,3,4,5], 6) == -1
   assert binary_search([1,2,3,4,5], 9) == -1
   assert binary_search([1,2,3,4,5], 2) == 1
-	### TODO: add two more tests here.
-
-	###
 
 def test_linear_search():
 	""" done. """
