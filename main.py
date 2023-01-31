@@ -3,7 +3,11 @@ CMPS 2200  Recitation 1
 """
 
 ### the only imports needed are here
+'''
+tabulate is causing errors upon submission
+
 import tabulate
+'''
 import time
 ###
 
