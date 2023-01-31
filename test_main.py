@@ -7,11 +7,21 @@ def test_compare_search():
 	assert res[1][0] == 100
 	assert res[0][1] < 1
 	assert res[1][1] < 1
+'''
+this version of test_binary_search() is not submitting right:
 
 def test_binary_search():
 	assert binary_search([1,2,3,4,5], 5) == 4
 	assert binary_search([1,2,3,4,5], 1) == 0
 	assert binary_search([1,2,3,4,5], 6) == -1
+  assert binary_search([1,2,3,4,5], 9) == -1
+  assert binary_search([1,2,3,4,5], 2) == 1
+'''
+
+def test_binary_search():
+  assert binary_search([1,2,3,4,5], 5,) == 4
+  assert binary_search([1,2,3,4,5], 1) == 0
+  assert binary_search([1,2,3,4,5], 6) == -1
   assert binary_search([1,2,3,4,5], 9) == -1
   assert binary_search([1,2,3,4,5], 2) == 1
 
